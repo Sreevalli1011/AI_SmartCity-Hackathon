@@ -1,7 +1,5 @@
 # AI_SmartCity-Hackathon
-# 1. Project Title
-
-## Urban Traffic Flow & Incident Intelligence
+# 1.  Urban Traffic Flow & Incident Intelligence
 
 An AI-powered decision-support system for detecting urban traffic congestion and incidents, forecasting traffic conditions, generating simulated traffic advisories, and identifying recurring network bottlenecks.
 
