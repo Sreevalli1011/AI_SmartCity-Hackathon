@@ -160,6 +160,7 @@ Traffic Response     Network Proposal
                            ▼
                     Before / After
                     Impact Estimate
+```
 7. Technical Approach
 8. Explainability & Confidence
 9. Simulation / Advisory Constraint:The system is strictly a software-only decision-support system.
