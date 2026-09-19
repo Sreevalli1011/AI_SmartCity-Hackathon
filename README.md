@@ -177,7 +177,7 @@ Municipal infrastructure access
 Actual construction work
 
 The system therefore provides recommendations and simulated impact estimates rather than directly controlling real-world infrastructure.
-10. Planned Technology Stack: 
+# 10. Planned Technology Stack: 
 | Component            | Technology|
 | -------------------- | --------------------- |
 | Frontend             | React                 |
@@ -187,6 +187,30 @@ The system therefore provides recommendations and simulated impact estimates rat
 | Maps                 | OpenStreetMap         |
 | Traffic Data / API   | TomTom                |
 | Visualization / Maps | Leaflet               |
+
+                    ┌───────────────┐
+                    │    React      │
+                    │   Frontend    │
+                    └───────┬───────┘
+                            ↓
+                    ┌───────────────┐
+                    │    FastAPI    │
+                    │    Backend    │
+                    └───────┬───────┘
+                            ↓
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+        Python / ML     PostgreSQL     Traffic Data
+        scikit-learn    Database       / Services
+              │                           │
+              └─────────────┬─────────────┘
+                            ↓
+                  Network Intelligence
+                            ↓
+              ┌─────────────┴─────────────┐
+              ↓                           ↓
+        OpenStreetMap                  Leaflet
+        Road Network                 Visualization
 11. Checkpoint 1 Status
 12. Next Steps
 ## 13. Research Papers
