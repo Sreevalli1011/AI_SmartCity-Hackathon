@@ -123,18 +123,61 @@ Advisories       Analysis
 10. Planned Technology Stack
 11. Checkpoint 1 Status
 12. Next Steps
-13. Research Papers: 1.Urban Traffic Congestion:- "A systematic review on urban road traffic congestion"- https://link.springer.com/article/10.1007/s11277-023-10700-0(2025)
--"Traffic Congestion and its urban scale factors"-https://www.tandfonline.com/doi/abs/10.1080/15568318.2021.1885085(2022)
--"Tackling Urban Traffic Congestion"-https://www.sciencedirect.com/science/article/abs/pii/S2213624X17302912(2018)
-2.Traffic Prediction:-"Deep Learning on platform on network prediction"-https://dl.acm.org/doi/full/10.1145/3703447(2025)
--"Traffic prediction using artificial intelligence"-https://www.sciencedirect.com/science/article/abs/pii/S0968090X22003345(2022)
--"Deep Learning on Traffic Prediction"-https://ieeexplore.ieee.org/abstract/document/9352246/(2020)
-3.Traffic Diversion:-"Sensor based early warning and intelligent traffic diversion system"-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG="(2026)
--"Dynamic optimisation of visitor diversion in smart scene"-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG=(2026)
--Artificial Intelligence based Optimized Traffic Diversion System"-https://link.springer.com/chapter/10.1007/978-3-031-45124-9_8(2023)
-4.Reccuring Bottleneck detection-"Addressing the urban congestion challenge based on traffic bottlenecks"-https://pmc.ncbi.nlm.nih.gov/articles/PMC11569827/(2024)
--"Spatiotemporal dynamics of traffic bottleneck"-https://www.nature.com/articles/s41467-023-43591-7(2023)
--"Motorway Bottleneck Probability Estimation in Connected Vehicles Environment Using Speed Transition Matrices"-https://pmc.ncbi.nlm.nih.gov/articles/PMC9003128/(2022)
-5.AI Traffic Command Center-"Design and implementation of public transportation emergency command and assistance platform from the perspective of smart policing"-https://journal.innoviair.cn/index.php/AAIR/en/article/view/92(2026)
-"Empowering Security Operation Center With Artificial Intelligence and Machine Learning"-https://ieeexplore.ieee.org/abstract/document/10850912(2025)
--"Implementing an artificial intelligence command centre in the NHS: a mixed-methods study"-https://pure.york.ac.uk/portal/en/publications/implementing-an-artificial-intelligence-command-centre-in-the-nhs/2024)
+## 13. Research Papers
+
+The following research papers were referred to for understanding the major technical areas of the proposed **AI-based Urban Traffic Flow & Incident Intelligence System**.
+
+### 13.1 Urban Traffic Congestion
+
+1. **A Systematic Review on Urban Road Traffic Congestion** — 2025
+   https://link.springer.com/article/10.1007/s11277-023-10700-0
+
+2. **Traffic Congestion and its Urban Scale Factors** — 2022
+   https://www.tandfonline.com/doi/abs/10.1080/15568318.2021.1885085
+
+3. **Tackling Urban Traffic Congestion** — 2018
+   https://www.sciencedirect.com/science/article/abs/pii/S2213624X17302912
+
+### 13.2 Traffic Prediction
+
+1. **Deep Learning on Platform on Network Prediction** — 2025
+   https://dl.acm.org/doi/full/10.1145/3703447
+
+2. **Traffic Prediction Using Artificial Intelligence** — 2022
+   https://www.sciencedirect.com/science/article/abs/pii/S0968090X22003345
+
+3. **Deep Learning on Traffic Prediction** — 2020
+   https://ieeexplore.ieee.org/abstract/document/9352246/
+
+### 13.3 Traffic Diversion
+
+1. **Sensor-Based Early Warning and Intelligent Traffic Diversion System** — 2026
+   https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG=
+
+2. **Dynamic Optimisation of Visitor Diversion in Smart Scene** — 2026
+   https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG=
+
+3. **Artificial Intelligence Based Optimized Traffic Diversion System** — 2023
+   https://link.springer.com/chapter/10.1007/978-3-031-45124-9_8
+
+### 13.4 Recurring Bottleneck Detection
+
+1. **Addressing the Urban Congestion Challenge Based on Traffic Bottlenecks** — 2024
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11569827/
+
+2. **Spatiotemporal Dynamics of Traffic Bottlenecks** — 2023
+   https://www.nature.com/articles/s41467-023-43591-7
+
+3. **Motorway Bottleneck Probability Estimation in Connected Vehicles Environment Using Speed Transition Matrices** — 2022
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC9003128/
+
+### 13.5 AI Traffic Command Center
+
+1. **Design and Implementation of Public Transportation Emergency Command and Assistance Platform from the Perspective of Smart Policing** — 2026
+   https://journal.innoviair.cn/index.php/AAIR/en/article/view/92
+
+2. **Empowering Security Operation Center With Artificial Intelligence and Machine Learning** — 2025
+   https://ieeexplore.ieee.org/abstract/document/10850912
+
+3. **Implementing an Artificial Intelligence Command Centre in the NHS: A Mixed-Methods Study** — 2024
+   https://pure.york.ac.uk/portal/en/publications/implementing-an-artificial-intelligence-command-centre-in-the-nhs/
