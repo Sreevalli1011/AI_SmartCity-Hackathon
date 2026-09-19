@@ -1,6 +1,18 @@
 # AI_SmartCity-Hackathon
 1. Project Title
-2. Problem Understanding
+## 2. Problem Understanding
+
+Urban traffic networks are highly dynamic. Traffic conditions can change within minutes due to incidents, weather, road works, events, peak-hour commuter flows, and congestion spreading across neighboring road segments.
+
+At the same time, some congestion is recurring and can be caused by persistent road-capacity limitations, network structure, signalized junctions, flyovers, arterial corridors, and localized bottlenecks.
+
+Our goal is to build a **software-only AI decision-support system** that can understand the current state of an urban road network, anticipate near-future traffic conditions, and provide evidence-based recommendations.
+
+The system is designed for a **Hyderabad-like operating environment** involving dense mixed traffic, strong peak-hour flows, signalized junctions, flyovers, arterial corridors, recurring bottlenecks, road works, weather-related slowdowns, event-driven surges, incidents, and congestion spillback.
+
+The project is **not intended to be another navigation application or a generic chatbot**. Its purpose is to support traffic-management decisions using analysis, prediction, evidence, and simulation.
+
+---
 3. Objectives
 4. Proposed Solution
 5. Architecture
