@@ -1,0 +1,6 @@
+{
+  "name": "Artery – Urban Traffic Flow & Incident Intelligence",
+  "description": "AI-based urban traffic decision-support and simulation system for dense urban road networks like Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
