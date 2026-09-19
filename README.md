@@ -123,3 +123,18 @@ Advisories       Analysis
 10. Planned Technology Stack
 11. Checkpoint 1 Status
 12. Next Steps
+13. Research Papers: 1.Urban Traffic Congestion:- "A systematic review on urban road traffic congestion"- https://link.springer.com/article/10.1007/s11277-023-10700-0(2025)
+-"Traffic Congestion and its urban scale factors"-https://www.tandfonline.com/doi/abs/10.1080/15568318.2021.1885085(2022)
+-"Tackling Urban Traffic Congestion"-https://www.sciencedirect.com/science/article/abs/pii/S2213624X17302912(2018)
+2.Traffic Prediction:-"Deep Learning on platform on network prediction"-https://dl.acm.org/doi/full/10.1145/3703447(2025)
+-"Traffic prediction using artificial intelligence"-https://www.sciencedirect.com/science/article/abs/pii/S0968090X22003345(2022)
+-"Deep Learning on Traffic Prediction"-https://ieeexplore.ieee.org/abstract/document/9352246/(2020)
+3.Traffic Diversion:-"Sensor based early warning and intelligent traffic diversion system"-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG="(2026)
+-"Dynamic optimisation of visitor diversion in smart scene"-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG=(2026)
+-Artificial Intelligence based Optimized Traffic Diversion System"-https://link.springer.com/chapter/10.1007/978-3-031-45124-9_8(2023)
+4.Reccuring Bottleneck detection-"Addressing the urban congestion challenge based on traffic bottlenecks"-https://pmc.ncbi.nlm.nih.gov/articles/PMC11569827/(2024)
+-"Spatiotemporal dynamics of traffic bottleneck"-https://www.nature.com/articles/s41467-023-43591-7(2023)
+-"Motorway Bottleneck Probability Estimation in Connected Vehicles Environment Using Speed Transition Matrices"-https://pmc.ncbi.nlm.nih.gov/articles/PMC9003128/(2022)
+5.AI Traffic Command Center-"Design and implementation of public transportation emergency command and assistance platform from the perspective of smart policing"-https://journal.innoviair.cn/index.php/AAIR/en/article/view/92(2026)
+"Empowering Security Operation Center With Artificial Intelligence and Machine Learning"-https://ieeexplore.ieee.org/abstract/document/10850912(2025)
+-"Implementing an artificial intelligence command centre in the NHS: a mixed-methods study"-https://pure.york.ac.uk/portal/en/publications/implementing-an-artificial-intelligence-command-centre-in-the-nhs/2024)
