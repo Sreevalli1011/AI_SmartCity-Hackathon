@@ -162,8 +162,30 @@ Traffic Response     Network Proposal
                     Impact Estimate
 7. Technical Approach
 8. Explainability & Confidence
-9. Simulation / Advisory Constraint
-10. Planned Technology Stack
+9. Simulation / Advisory Constraint:The system is strictly a software-only decision-support system.
+
+All traffic-management actions and infrastructure modifications are simulated or advisory.
+
+The project does not require or perform:
+
+Live traffic signal control
+Camera access
+GPS-device integration
+Roadside sensor integration
+Municipal infrastructure access
+Actual construction work
+
+The system therefore provides recommendations and simulated impact estimates rather than directly controlling real-world infrastructure.
+10. Planned Technology Stack: 
+| Component            | Technology|
+| -------------------- | --------------------- |
+| Frontend             | React                 |
+| Backend              | FastAPI               |
+| AI / ML              | Python + scikit-learn |
+| Database             | PostgreSQL            |
+| Maps                 | OpenStreetMap         |
+| Traffic Data / API   | TomTom                |
+| Visualization / Maps | Leaflet               |
 11. Checkpoint 1 Status
 12. Next Steps
 ## 13. Research Papers
