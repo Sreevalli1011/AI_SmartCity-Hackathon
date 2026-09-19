@@ -163,13 +163,13 @@ Traffic Response     Network Proposal
 ```
 7. Technical Approach
 8. Explainability & Confidence
-9. Simulation / Advisory Constraint:
--The system is strictly a software-only decision-support system.
--All traffic-management actions and infrastructure modifications are simulated or advisory.
--The project does not require or perform
--Roadside sensor integration
--Municipal infrastructure access
--Actual construction work
+# 9. Simulation / Advisory Constraint:
+- The system is strictly a software-only decision-support system.
+- All traffic-management actions and infrastructure modifications are simulated or advisory.
+- The project does not require or perform
+- Roadside sensor integration
+- Municipal infrastructure access
+- Actual construction work
 
 
 The system therefore provides recommendations and simulated impact estimates rather than directly controlling real-world infrastructure.
