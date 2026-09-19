@@ -162,7 +162,7 @@ Traffic Response     Network Proposal
                     Impact Estimate
 ```
 # 7. Technical Approach
-# 7.1 Data Processing
+### 7.1 Data Processing
 
 The first stage will profile and prepare the organizer-provided datasets.
 
@@ -178,7 +178,7 @@ The pipeline will examine:
 
 The exact model and feature set will be selected after profiling the provided dataset rather than assuming a fixed model in advance.
 
-# 7.2 Network State Estimation
+### 7.2 Network State Estimation
 
 The system will transform raw traffic observations into a representation of the current road-network state.
 
@@ -195,7 +195,7 @@ Current Network State
 ```
 The state representation will support downstream congestion detection, incident detection, forecasting, and recommendation generation.
 
-# 7.3 Congestion Detection
+### 7.3 Congestion Detection
 
 The congestion detection component will identify road segments whose current traffic state deviates from expected conditions.
 
@@ -216,7 +216,7 @@ Normal / Slow / Congested / Severe
 ```
 The system should distinguish between normal recurring traffic patterns and genuinely abnormal conditions wherever the available data supports this distinction.
 
-# 7.4 Incident / Anomaly Detection
+### 7.4 Incident / Anomaly Detection
 
 Traffic incidents can create sudden deviations from expected traffic behavior.
 
@@ -324,8 +324,8 @@ The system therefore provides recommendations and simulated impact estimates rat
 
 # 11. Research Papers
 
-The following research papers were referred to for understanding the major technical areas of the proposed **AI-based Urban Traffic Flow & Incident Intelligence System**.
-
+The following research papers were referred to for understanding the major technical areas of the proposed **AI-based Urban Traffic Flow & Incident Intelligence System.**
+---
 ### 11.1 Urban Traffic Congestion
 
 1. **A Systematic Review on Urban Road Traffic Congestion** — 2025
@@ -336,7 +336,7 @@ The following research papers were referred to for understanding the major techn
 
 3. **Tackling Urban Traffic Congestion** — 2018
    https://www.sciencedirect.com/science/article/abs/pii/S2213624X17302912
-
+---
 ### 11.2 Traffic Prediction
 
 1. **Deep Learning on Platform on Network Prediction** — 2025
@@ -347,7 +347,7 @@ The following research papers were referred to for understanding the major techn
 
 3. **Deep Learning on Traffic Prediction** — 2020
    https://ieeexplore.ieee.org/abstract/document/9352246/
-
+---
 ### 11.3 Traffic Diversion
 
 1. **Sensor-Based Early Warning and Intelligent Traffic Diversion System** — 2026
@@ -358,7 +358,7 @@ The following research papers were referred to for understanding the major techn
 
 3. **Artificial Intelligence Based Optimized Traffic Diversion System** — 2023
    https://link.springer.com/chapter/10.1007/978-3-031-45124-9_8
-
+---
 ### 11.4 Recurring Bottleneck Detection
 
 1. **Addressing the Urban Congestion Challenge Based on Traffic Bottlenecks** — 2024
@@ -369,7 +369,7 @@ The following research papers were referred to for understanding the major techn
 
 3. **Motorway Bottleneck Probability Estimation in Connected Vehicles Environment Using Speed Transition Matrices** — 2022
    https://pmc.ncbi.nlm.nih.gov/articles/PMC9003128/
-
+---
 ### 11.5 AI Traffic Command Center
 
 1. **Design and Implementation of Public Transportation Emergency Command and Assistance Platform from the Perspective of Smart Policing** — 2026
