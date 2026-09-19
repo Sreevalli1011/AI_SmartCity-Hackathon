@@ -74,7 +74,44 @@ Advisories       Analysis
               Infrastructure Changes
                      ↓
               Before/After Impact
-5. Architecture
+5. Architecture.
+
+┌───────────────────────────────┐
+│ Organizer Traffic & Network   │
+│ Data                          │
+└───────────────┬───────────────┘
+                ↓
+┌───────────────────────────────┐
+│ Data Processing & Feature     │
+│ Engineering                   │
+└───────────────┬───────────────┘
+                ↓
+┌───────────────────────────────┐
+│ Network State Estimation      │
+└───────────────┬───────────────┘
+                ↓
+       ┌────────┼────────┐
+       ↓        ↓        ↓
+   Congestion Incident Forecasting
+   Detection  Detection  15–60 min
+       └────────┼────────┘
+                ↓
+┌───────────────────────────────┐
+│ Decision / Recommendation     │
+│ Engine                        │
+└───────────────┬───────────────┘
+                ↓
+       ┌────────┴─────────┐
+       ↓                  ↓
+ Operational        Bottleneck &
+ Advisories         Simulation
+       │                  │
+       └────────┬─────────┘
+                ↓
+┌───────────────────────────────┐
+│ Evidence + Confidence +       │
+│ Expected Impact               │
+└───────────────────────────────┘
 6. Data Flow
 7. Technical Approach
 8. Explainability & Confidence
