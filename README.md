@@ -74,7 +74,10 @@ Advisories       Analysis
               Infrastructure Changes
                      ↓
               Before/After Impact
-5. Architecture.
+```
+
+# 5. Architecture.
+```text
 
 ┌───────────────────────────────┐
 │ Organizer Traffic & Network   │
@@ -112,6 +115,7 @@ Advisories       Analysis
 │ Evidence + Confidence +       │
 │ Expected Impact               │
 └───────────────────────────────┘
+```
 6. Data Flow
 7. Technical Approach
 8. Explainability & Confidence
