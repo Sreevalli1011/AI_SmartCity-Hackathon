@@ -324,7 +324,7 @@ The system therefore provides recommendations and simulated impact estimates rat
 
 # 11. Research Papers
 
-The following research papers were referred to for understanding the major technical areas of the proposed **AI-based Urban Traffic Flow & Incident Intelligence System.**
+The following research papers were referred to for understanding the major technical areas of the proposed AI-based Urban Traffic Flow & Incident Intelligence System.
 ---
 ### 11.1 Urban Traffic Congestion
 
