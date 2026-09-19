@@ -116,7 +116,50 @@ Advisories       Analysis
 │ Expected Impact               │
 └───────────────────────────────┘
 ```
-6. Data Flow
+# 6. Data Flow
+```text
+
+Traffic / Road Network Data
+            │
+            ▼
+      Data Validation
+            │
+            ▼
+   Cleaning & Preprocessing
+            │
+            ▼
+    Feature Engineering
+            │
+            ▼
+   Network State Estimation
+            │
+       ┌────┴────┐
+       │         │
+       ▼         ▼
+ Congestion   Anomaly /
+ Detection    Incident Detection
+       │         │
+       └────┬────┘
+            ▼
+       State Forecasting
+        15–60 minutes
+            │
+            ▼
+      Decision Engine
+            │
+       ┌────┴──────────────┐
+       ▼                   ▼
+Operational            Recurring
+Advisory               Bottleneck
+       │                Analysis
+       │                   │
+       ▼                   ▼
+Diversion /          Infrastructure /
+Traffic Response     Network Proposal
+                           │
+                           ▼
+                    Before / After
+                    Impact Estimate
 7. Technical Approach
 8. Explainability & Confidence
 9. Simulation / Advisory Constraint
