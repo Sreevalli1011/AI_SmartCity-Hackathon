@@ -161,8 +161,91 @@ Traffic Response     Network Proposal
                     Before / After
                     Impact Estimate
 ```
-7. Technical Approach
-8. Explainability & Confidence
+# 7. Technical Approach
+# 7.1 Data Processing
+
+The first stage will profile and prepare the organizer-provided datasets.
+
+The pipeline will examine:
+
+- Available traffic variables.
+- Road and segment identifiers.
+- Temporal information.
+- Relationships between road segments.
+- Missing values.
+- Noisy or anomalous observations.
+- Historical traffic patterns.
+
+The exact model and feature set will be selected after profiling the provided dataset rather than assuming a fixed model in advance.
+
+# 7.2 Network State Estimation
+
+The system will transform raw traffic observations into a representation of the current road-network state.
+
+At a high level:
+```text
+
+Raw Traffic Observations
+          +
+Historical / Temporal Context
+          +
+Road Network Structure
+          ↓
+Current Network State
+```
+The state representation will support downstream congestion detection, incident detection, forecasting, and recommendation generation.
+
+# 7.3 Congestion Detection
+
+The congestion detection component will identify road segments whose current traffic state deviates from expected conditions.
+
+A conceptual approach is:
+```text
+
+Current Traffic
+      +
+Expected / Historical Baseline
+      +
+Temporal Context
+      +
+Neighboring Road Conditions
+      ↓
+Traffic State / Congestion Score
+      ↓
+Normal / Slow / Congested / Severe
+```
+The system should distinguish between normal recurring traffic patterns and genuinely abnormal conditions wherever the available data supports this distinction.
+
+# 7.4 Incident / Anomaly Detection
+
+Traffic incidents can create sudden deviations from expected traffic behavior.
+
+The system will therefore analyze abnormal changes in traffic conditions rather than treating every congestion event as an incident.
+
+Conceptually:
+```text
+
+Expected Traffic State
+          │
+          ▼
+     Actual State
+          │
+          ▼
+   Abnormal Deviation
+          │
+          ├── Temporal Evidence
+          ├── Network Evidence
+          └── Traffic Evidence
+          │
+          ▼
+Potential Incident / Anomaly
+          │
+          ▼
+Confidence + Supporting Evidence
+```
+Incident classification will only be performed where the available data provides sufficient evidence.
+
+# 8. Explainability & Confidence
 # 9. Simulation / Advisory Constraint:
 - The system is strictly a software-only decision-support system.
 - All traffic-management actions and infrastructure modifications are simulated or advisory.
