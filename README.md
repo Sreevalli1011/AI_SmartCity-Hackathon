@@ -245,7 +245,38 @@ Confidence + Supporting Evidence
 ```
 Incident classification will only be performed where the available data provides sufficient evidence.
 
-# 8. Explainability & Confidence
+# 8. Explainability & Confidence 
+
+The system will provide explanations and confidence information along with important predictions and recommendations.
+
+Each major output will include:
+
+- **Prediction / Recommendation**
+- **Supporting Evidence**
+- **Confidence Level**
+- **Expected Impact**
+- **Known Limitations**
+
+For example:
+
+```text
+Detected Condition:
+Abnormal congestion
+
+Supporting Evidence:
+- Deviation from expected traffic conditions
+- Changes in neighboring road segments
+- Historical traffic comparison
+
+Confidence:
+High / Medium / Low
+
+Recommendation:
+Simulated diversion candidate
+
+Expected Impact:
+Estimated using available traffic and road-network analysis
+```
 # 9. Simulation / Advisory Constraint:
 - The system is strictly a software-only decision-support system.
 - All traffic-management actions and infrastructure modifications are simulated or advisory.
@@ -290,13 +321,12 @@ The system therefore provides recommendations and simulated impact estimates rat
               ↓                           ↓
         OpenStreetMap                  Leaflet
         Road Network                 Visualization
-11. Checkpoint 1 Status
-12. Next Steps
-## 13. Research Papers
+
+# 11. Research Papers
 
 The following research papers were referred to for understanding the major technical areas of the proposed **AI-based Urban Traffic Flow & Incident Intelligence System**.
 
-### 13.1 Urban Traffic Congestion
+### 11.1 Urban Traffic Congestion
 
 1. **A Systematic Review on Urban Road Traffic Congestion** — 2025
    https://link.springer.com/article/10.1007/s11277-023-10700-0
@@ -307,7 +337,7 @@ The following research papers were referred to for understanding the major techn
 3. **Tackling Urban Traffic Congestion** — 2018
    https://www.sciencedirect.com/science/article/abs/pii/S2213624X17302912
 
-### 13.2 Traffic Prediction
+### 11.2 Traffic Prediction
 
 1. **Deep Learning on Platform on Network Prediction** — 2025
    https://dl.acm.org/doi/full/10.1145/3703447
@@ -318,7 +348,7 @@ The following research papers were referred to for understanding the major techn
 3. **Deep Learning on Traffic Prediction** — 2020
    https://ieeexplore.ieee.org/abstract/document/9352246/
 
-### 13.3 Traffic Diversion
+### 11.3 Traffic Diversion
 
 1. **Sensor-Based Early Warning and Intelligent Traffic Diversion System** — 2026
    https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=smart+traffic+diversion&btnG=
@@ -329,7 +359,7 @@ The following research papers were referred to for understanding the major techn
 3. **Artificial Intelligence Based Optimized Traffic Diversion System** — 2023
    https://link.springer.com/chapter/10.1007/978-3-031-45124-9_8
 
-### 13.4 Recurring Bottleneck Detection
+### 11.4 Recurring Bottleneck Detection
 
 1. **Addressing the Urban Congestion Challenge Based on Traffic Bottlenecks** — 2024
    https://pmc.ncbi.nlm.nih.gov/articles/PMC11569827/
@@ -340,7 +370,7 @@ The following research papers were referred to for understanding the major techn
 3. **Motorway Bottleneck Probability Estimation in Connected Vehicles Environment Using Speed Transition Matrices** — 2022
    https://pmc.ncbi.nlm.nih.gov/articles/PMC9003128/
 
-### 13.5 AI Traffic Command Center
+### 11.5 AI Traffic Command Center
 
 1. **Design and Implementation of Public Transportation Emergency Command and Assistance Platform from the Perspective of Smart Policing** — 2026
    https://journal.innoviair.cn/index.php/AAIR/en/article/view/92
