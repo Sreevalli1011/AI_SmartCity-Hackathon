@@ -13,7 +13,23 @@ The system is designed for a **Hyderabad-like operating environment** involving 
 The project is **not intended to be another navigation application or a generic chatbot**. Its purpose is to support traffic-management decisions using analysis, prediction, evidence, and simulation.
 
 ---
-3. Objectives
+## 3. Project Objectives
+
+The proposed system aims to:
+
+- Continuously analyze organizer-provided traffic and road-network datasets.
+- Estimate the current state of the road network.
+- Detect congestion and abnormal traffic behavior.
+- Detect or classify incidents where supported by the available data.
+- Forecast traffic conditions 15–60 minutes ahead.
+- Generate evidence-based operational and diversion advisories.
+- Identify recurring congestion and network bottlenecks.
+- Propose simulated road-network or infrastructure modifications.
+- Estimate the expected impact of proposed modifications.
+- Provide evidence, confidence, uncertainty, and limitations for important outputs.
+
+---
+
 4. Proposed Solution
 5. Architecture
 6. Data Flow
