@@ -6,3 +6,23 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Python
+Backend/venv/
+Backend/__pycache__/
+Backend/**/__pycache__/
+*.pyc
+
+# Large generated datasets
+Backend/Data/traffic_train.csv
+Backend/Data/traffic_validation.csv
+Backend/Data/traffic_clean.csv
+Backend/Data/traffic_features.csv
+Backend/Data/forecast_targets_train.csv
+Backend/Data/forecast_targets_validation.csv
+
+# Large trained models
+Backend/Models/forecast_15m_model.joblib
+Backend/Models/forecast_30m_model.joblib
+Backend/Models/forecast_45m_model.joblib
+Backend/Models/forecast_60m_model.joblib

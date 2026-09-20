@@ -9,7 +9,19 @@ import {
   OperationalAdvisory,
   TrafficKpis,
 } from '../types';
+const API_BASE_URL = 'http://127.0.0.1:8000';
 
+export async function getBackendRecommendation(segmentId: string) {
+  const response = await fetch(
+    `${API_BASE_URL}/recommendations?segment_id=${segmentId}`
+  );
+
+  if (!response.ok) {
+    throw new Error(`Backend error: ${response.status}`);
+  }
+
+  return response.json();
+}
 /**
  * Calculates congestion level based on speed ratio and volume-to-capacity ratio (V/C).
  */

@@ -1,0 +1,112 @@
+[
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0312",
+    "alternative_route":[
+      "R0352",
+      "R0308",
+      "R0305"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0119",
+    "alternative_route":[
+      "R0114",
+      "R0115",
+      "R0159"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0108",
+    "alternative_route":[
+      "R0148",
+      "R0104",
+      "R0101"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0402",
+    "alternative_route":[
+      "R0362",
+      "R0356",
+      "R0357"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0068",
+    "alternative_route":[
+      "R0028",
+      "R0022",
+      "R0023"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0124",
+    "alternative_route":[
+      "R0164",
+      "R0120",
+      "R0117"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0281",
+    "alternative_route":[
+      "R0238",
+      "R0235",
+      "R0241"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0286",
+    "alternative_route":[
+      "R0246",
+      "R0240",
+      "R0241"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0195",
+    "alternative_route":[
+      "R0190",
+      "R0191",
+      "R0235"
+    ],
+    "action":"Recommend controlled diversion"
+  },
+  {
+    "decision":"DIVERT",
+    "reason":"Viable alternative route found",
+    "blocked_segment":"R0172",
+    "alternative_route":[
+      "R0132",
+      "R0126",
+      "R0127"
+    ],
+    "action":"Recommend controlled diversion"
+  }
+]

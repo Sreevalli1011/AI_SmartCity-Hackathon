@@ -1,0 +1,12 @@
+{
+    "scenario": "Demand Surge",
+    "demand_increase_percent": 20,
+    "timestamp": "2026-01-15 23:55:00",
+    "average_speed_before": 44.4462,
+    "average_speed_after": 44.4986,
+    "average_congestion_before": 0.003224,
+    "average_congestion_after": 0.00396,
+    "severe_segments": 10,
+    "heavy_segments": 2,
+    "moderate_segments": 38
+}
